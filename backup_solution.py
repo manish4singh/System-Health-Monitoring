@@ -3,11 +3,11 @@ import datetime
 import os
 
 # Configuration
-SOURCE_DIR = "/path/to/source/directory"
-REMOTE_USER = "remote_user"
-REMOTE_HOST = "remote_host"
-REMOTE_DIR = "/path/to/remote/directory"
-LOG_FILE = "/path/to/log/file.log"
+SOURCE_DIR = "D:\Projects\AccuKnox Project\System Health Monitoring"
+REMOTE_USER = "manish4singh"
+REMOTE_HOST = "https://github.com"
+REMOTE_DIR = "https://github.com/manish4singh/System-Health-Monitoring"
+LOG_FILE = "backup.log"
 
 def backup_directory():
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
